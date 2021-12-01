@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-IMKB_VeriPark/Pods-IMKB_VeriPark-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

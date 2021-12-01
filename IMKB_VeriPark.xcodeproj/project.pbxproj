@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2767C92427C63E5EA700D942 /* Pods_IMKB_VeriPark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0E479B2213EB9A0D1B7112 /* Pods_IMKB_VeriPark.framework */; };
+		6A8F2897273537BE00C1B749 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8F2896273537BE00C1B749 /* Extensions.swift */; };
+		B527DECD264412410075F169 /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527DECC264412410075F169 /* MenuListController.swift */; };
+		B5380A8626457FD600FE7472 /* DetailsLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5380A8526457FD600FE7472 /* DetailsLineChartView.swift */; };
+		B544E63426454E1100B2A59A /* StockDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B544E63326454E1100B2A59A /* StockDetailsResponse.swift */; };
+		B544E6362645500F00B2A59A /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B544E6352645500F00B2A59A /* Status.swift */; };
+		B58BD7852644690E00DFF724 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BD7842644690E00DFF724 /* AuthManager.swift */; };
+		B58BD787264473BC00DFF724 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BD786264473BC00DFF724 /* AuthResponse.swift */; };
+		B58BD78B2644826E00DFF724 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BD78A2644826E00DFF724 /* APICaller.swift */; };
+		B58BD78D264497CA00DFF724 /* StocksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BD78C264497CA00DFF724 /* StocksResponse.swift */; };
+		B5F95CAB2642D2330078B38A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CAA2642D2330078B38A /* AppDelegate.swift */; };
+		B5F95CAD2642D2330078B38A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CAC2642D2330078B38A /* SceneDelegate.swift */; };
+		B5F95CAF2642D2330078B38A /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CAE2642D2330078B38A /* OnboardingVC.swift */; };
+		B5F95CB22642D2330078B38A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F95CB02642D2330078B38A /* Main.storyboard */; };
+		B5F95CB42642D2360078B38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F95CB32642D2360078B38A /* Assets.xcassets */; };
+		B5F95CB72642D2360078B38A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F95CB52642D2360078B38A /* LaunchScreen.storyboard */; };
+		B5F95CC62642D5030078B38A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CC52642D5030078B38A /* AppCoordinator.swift */; };
+		B5F95CCA2642E01F0078B38A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CC92642E01F0078B38A /* MainVC.swift */; };
+		B5F95CD326431ACC0078B38A /* StocksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CD226431ACC0078B38A /* StocksTableViewCell.swift */; };
+		B5F95CD826432A2A0078B38A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CD726432A2A0078B38A /* DetailsVC.swift */; };
+		B5F95CDA26432B580078B38A /* DetailsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F95CD926432B580078B38A /* DetailsInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E0E479B2213EB9A0D1B7112 /* Pods_IMKB_VeriPark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMKB_VeriPark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8F2896273537BE00C1B749 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9E3D0901C4114F7D994085DE /* Pods-IMKB_VeriPark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMKB_VeriPark.release.xcconfig"; path = "Target Support Files/Pods-IMKB_VeriPark/Pods-IMKB_VeriPark.release.xcconfig"; sourceTree = "<group>"; };
+		A87055D0C0DCA6D6926EFCEE /* Pods-IMKB_VeriPark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMKB_VeriPark.debug.xcconfig"; path = "Target Support Files/Pods-IMKB_VeriPark/Pods-IMKB_VeriPark.debug.xcconfig"; sourceTree = "<group>"; };
+		B527DECC264412410075F169 /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
+		B5380A8526457FD600FE7472 /* DetailsLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsLineChartView.swift; sourceTree = "<group>"; };
+		B544E63326454E1100B2A59A /* StockDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsResponse.swift; sourceTree = "<group>"; };
+		B544E6352645500F00B2A59A /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		B58BD7842644690E00DFF724 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B58BD786264473BC00DFF724 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		B58BD78A2644826E00DFF724 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		B58BD78C264497CA00DFF724 /* StocksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksResponse.swift; sourceTree = "<group>"; };
+		B5F95CA72642D2330078B38A /* IMKB_VeriPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMKB_VeriPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F95CAA2642D2330078B38A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F95CAC2642D2330078B38A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5F95CAE2642D2330078B38A /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		B5F95CB12642D2330078B38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F95CB32642D2360078B38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F95CB62642D2360078B38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F95CB82642D2360078B38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F95CC52642D5030078B38A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B5F95CC92642E01F0078B38A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B5F95CD226431ACC0078B38A /* StocksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksTableViewCell.swift; sourceTree = "<group>"; };
+		B5F95CD726432A2A0078B38A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		B5F95CD926432B580078B38A /* DetailsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F95CA42642D2330078B38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2767C92427C63E5EA700D942 /* Pods_IMKB_VeriPark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4614CAB216A9E09E97A12FAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A87055D0C0DCA6D6926EFCEE /* Pods-IMKB_VeriPark.debug.xcconfig */,
+				9E3D0901C4114F7D994085DE /* Pods-IMKB_VeriPark.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5867038E2F03C0B16B2421B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E479B2213EB9A0D1B7112 /* Pods_IMKB_VeriPark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F95C9E2642D2330078B38A = {
+			isa = PBXGroup;
+			children = (
+				B5F95CA92642D2330078B38A /* IMKB_VeriPark */,
+				B5F95CA82642D2330078B38A /* Products */,
+				4614CAB216A9E09E97A12FAC /* Pods */,
+				5867038E2F03C0B16B2421B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F95CA82642D2330078B38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F95CA72642D2330078B38A /* IMKB_VeriPark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F95CA92642D2330078B38A /* IMKB_VeriPark */ = {
+			isa = PBXGroup;
+			children = (
+				B5F95CB32642D2360078B38A /* Assets.xcassets */,
+				B5F95CB82642D2360078B38A /* Info.plist */,
+				B5F95CB52642D2360078B38A /* LaunchScreen.storyboard */,
+				B5F95CB02642D2330078B38A /* Main.storyboard */,
+				B5F95CAA2642D2330078B38A /* AppDelegate.swift */,
+				B5F95CAC2642D2330078B38A /* SceneDelegate.swift */,
+				6A8F2896273537BE00C1B749 /* Extensions.swift */,
+				B5F95CC12642D4100078B38A /* Models */,
+				B5F95CC02642D40A0078B38A /* Views */,
+				B5F95CBE2642D3B90078B38A /* Controller */,
+				B5F95CC42642D4650078B38A /* API */,
+			);
+			path = IMKB_VeriPark;
+			sourceTree = "<group>";
+		};
+		B5F95CBE2642D3B90078B38A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5380A8526457FD600FE7472 /* DetailsLineChartView.swift */,
+				B527DECC264412410075F169 /* MenuListController.swift */,
+				B5F95CD926432B580078B38A /* DetailsInfoView.swift */,
+				B5F95CC92642E01F0078B38A /* MainVC.swift */,
+				B5F95CD726432A2A0078B38A /* DetailsVC.swift */,
+				B5F95CAE2642D2330078B38A /* OnboardingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5F95CC02642D40A0078B38A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5F95CD226431ACC0078B38A /* StocksTableViewCell.swift */,
+				B5F95CC52642D5030078B38A /* AppCoordinator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5F95CC12642D4100078B38A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD786264473BC00DFF724 /* AuthResponse.swift */,
+				B58BD78C264497CA00DFF724 /* StocksResponse.swift */,
+				B544E63326454E1100B2A59A /* StockDetailsResponse.swift */,
+				B544E6352645500F00B2A59A /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5F95CC42642D4650078B38A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD7842644690E00DFF724 /* AuthManager.swift */,
+				B58BD78A2644826E00DFF724 /* APICaller.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F95CA62642D2330078B38A /* IMKB_VeriPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F95CBB2642D2360078B38A /* Build configuration list for PBXNativeTarget "IMKB_VeriPark" */;
+			buildPhases = (
+				3A1DB11B7628D9F18F08D914 /* [CP] Check Pods Manifest.lock */,
+				B5F95CA32642D2330078B38A /* Sources */,
+				B5F95CA42642D2330078B38A /* Frameworks */,
+				B5F95CA52642D2330078B38A /* Resources */,
+				E1A6424692E5C0175AAF5800 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMKB_VeriPark;
+			productName = IMKB_Stocks_Indices;
+			productReference = B5F95CA72642D2330078B38A /* IMKB_VeriPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F95C9F2642D2330078B38A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = kaya;
+				TargetAttributes = {
+					B5F95CA62642D2330078B38A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = B5F95CA22642D2330078B38A /* Build configuration list for PBXProject "IMKB_VeriPark" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F95C9E2642D2330078B38A;
+			productRefGroup = B5F95CA82642D2330078B38A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F95CA62642D2330078B38A /* IMKB_VeriPark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F95CA52642D2330078B38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F95CB72642D2360078B38A /* LaunchScreen.storyboard in Resources */,
+				B5F95CB42642D2360078B38A /* Assets.xcassets in Resources */,
+				B5F95CB22642D2330078B38A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A1DB11B7628D9F18F08D914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMKB_VeriPark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A6424692E5C0175AAF5800 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMKB_VeriPark/Pods-IMKB_VeriPark-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMKB_VeriPark/Pods-IMKB_VeriPark-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMKB_VeriPark/Pods-IMKB_VeriPark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F95CA32642D2330078B38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F95CC62642D5030078B38A /* AppCoordinator.swift in Sources */,
+				B58BD7852644690E00DFF724 /* AuthManager.swift in Sources */,
+				B58BD787264473BC00DFF724 /* AuthResponse.swift in Sources */,
+				B544E6362645500F00B2A59A /* Status.swift in Sources */,
+				B544E63426454E1100B2A59A /* StockDetailsResponse.swift in Sources */,
+				B58BD78D264497CA00DFF724 /* StocksResponse.swift in Sources */,
+				B5F95CDA26432B580078B38A /* DetailsInfoView.swift in Sources */,
+				6A8F2897273537BE00C1B749 /* Extensions.swift in Sources */,
+				B527DECD264412410075F169 /* MenuListController.swift in Sources */,
+				B58BD78B2644826E00DFF724 /* APICaller.swift in Sources */,
+				B5F95CCA2642E01F0078B38A /* MainVC.swift in Sources */,
+				B5F95CAF2642D2330078B38A /* OnboardingVC.swift in Sources */,
+				B5F95CD326431ACC0078B38A /* StocksTableViewCell.swift in Sources */,
+				B5F95CAB2642D2330078B38A /* AppDelegate.swift in Sources */,
+				B5380A8626457FD600FE7472 /* DetailsLineChartView.swift in Sources */,
+				B5F95CAD2642D2330078B38A /* SceneDelegate.swift in Sources */,
+				B5F95CD826432A2A0078B38A /* DetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F95CB02642D2330078B38A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F95CB12642D2330078B38A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F95CB52642D2360078B38A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F95CB62642D2360078B38A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F95CB92642D2360078B38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5F95CBA2642D2360078B38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F95CBC2642D2360078B38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87055D0C0DCA6D6926EFCEE /* Pods-IMKB_VeriPark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2442A29256;
+				INFOPLIST_FILE = "$(SRCROOT)/IMKB_VeriPark/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaya.IMKB-VeriPark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5F95CBD2642D2360078B38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3D0901C4114F7D994085DE /* Pods-IMKB_VeriPark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2442A29256;
+				INFOPLIST_FILE = "$(SRCROOT)/IMKB_VeriPark/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaya.IMKB-VeriPark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F95CA22642D2330078B38A /* Build configuration list for PBXProject "IMKB_VeriPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F95CB92642D2360078B38A /* Debug */,
+				B5F95CBA2642D2360078B38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F95CBB2642D2360078B38A /* Build configuration list for PBXNativeTarget "IMKB_VeriPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F95CBC2642D2360078B38A /* Debug */,
+				B5F95CBD2642D2360078B38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F95C9F2642D2330078B38A /* Project object */;
+}

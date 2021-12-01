@@ -1,0 +1,6 @@
+framework module Pods_IMKB_VeriPark {
+  umbrella header "Pods-IMKB_VeriPark-umbrella.h"
+
+  export *
+  module * { export * }
+}

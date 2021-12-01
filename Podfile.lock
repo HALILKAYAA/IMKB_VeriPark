@@ -1,0 +1,26 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CryptoSwift (1.4.2)
+  - SideMenu (6.5.0)
+
+DEPENDENCIES:
+  - Charts
+  - CryptoSwift (~> 1.4.0)
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - CryptoSwift
+    - SideMenu
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+
+PODFILE CHECKSUM: b52662c96d22c91f2d3e9e221500dac3d36a9765
+
+COCOAPODS: 1.11.2
